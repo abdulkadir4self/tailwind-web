@@ -1,0 +1,221 @@
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    .sectionContainer{
+        flex-direction: column;
+        padding: .5rem;
+
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .5rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .5rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 1.5rem;
+    }
+    .sectionContentContainer p{
+        font-size: .9rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: .9rem;
+    }
+  }
+  
+  /* Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .sectionContainer{
+        flex-direction: column;
+        padding: .5rem;
+
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .5rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .5rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 1.7rem;
+    }
+    .sectionContentContainer p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: 1rem;
+    }
+  }
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sectionContainer{
+        padding: .5rem;
+        max-width: 100%;
+        padding-top: 5rem;
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .1rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .1rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 1.5rem;
+    }
+    .sectionContentContainer p{
+        font-size: .9rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: .9rem;
+    }
+  }
+  
+  /* Tablets (Landscape) */
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .sectionContainer{
+        padding: .5rem;
+        max-width: 100%;
+        padding-top: 5rem;
+
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .1rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .1rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 1.5rem;
+    }
+    .sectionContentContainer p{
+        font-size: .9rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: .9rem;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .sectionContainer{
+        padding: .5rem;
+        max-width: 100%;
+        padding-top: 5rem;
+
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .1rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .1rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 1.7rem;
+    }
+    .sectionContentContainer p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: 1rem;
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .sectionContainer{
+        padding: .5rem;
+        max-width: 100%;
+        padding-top: 5rem;
+
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .1rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .1rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 2rem;
+    }
+    .sectionContentContainer p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: 1.2rem;
+    }
+  }
+  
+  /* Large Desktops and TVs */
+  @media only screen and (min-width: 1440px) and (max-width: 1880px) {
+    .sectionContainer{
+        padding: .5rem;
+        max-width: 100%;
+        padding-top: 5rem;
+
+    }
+    .sectionImgContainer{
+        width: 100%; 
+
+    }
+    .sectionImgContainer img{
+        padding: .1rem;
+
+    }
+    .sectionContentContainer{
+        width: 100%;
+        padding: .1rem;
+    }
+    .sectionContentContainer h1{
+        font-size: 2rem;
+    }
+    .sectionContentContainer p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .sectionContentContainer button{
+        font-size: 1.2rem;
+    }
+  }
+  

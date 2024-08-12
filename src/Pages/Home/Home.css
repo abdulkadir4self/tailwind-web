@@ -1,0 +1,426 @@
+.lastContainer{
+    background-image: url('../../Assets/Rectangle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+    .heroContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: .5rem;
+        text-align: center;
+        height: fit-content !important;
+    }
+    .heroContainer div:nth-child(1){
+        width: 100%;
+    }
+    .heroContent , .heroImgContainer{
+        width: 100%;
+    }
+    .heroContent .firstBtn{
+        margin-right: 1rem !important;
+    }
+    .heroContent button{
+        font-size: .9rem;
+    }
+    .heroContent h1{
+        font-size: 1.5rem;
+    }
+    .heroContent p{
+        font-size: .9rem;
+        line-height: 1.5;
+    }
+    /* second Section Starts here */
+    .secondContainer{
+        flex-direction: column;
+    }
+    .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 1.5rem;
+    }
+    .secondContentContainer p{
+        font-size: .9rem;
+        line-height: 1.5;
+    }
+    /* last Section starts here */
+    .lastContentContainer h1{
+        font-size: 1.5rem;
+
+    }
+    .lastContentContainer p{
+        width: 100%;
+        padding: 1rem;
+    }
+    /* footer Section starts here */
+    .footerChild1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+    .footerChild2{
+        flex-direction: column;
+        gap:2rem; 
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+  /* Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .heroContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: .5rem;
+        text-align: center;
+        height: fit-content !important;
+    }
+    .heroContainer div:nth-child(1){
+        width: 100%;
+    }
+    .heroContent ,  .heroImgContainer{
+        width: 100%;
+    }
+    .heroContent .firstBtn{
+        margin-right: 1rem !important;
+    }
+    .heroContent button{
+        font-size: 1rem;
+    }
+    .heroContent h1{
+        font-size: 1.7rem;
+    }
+    .heroContent p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+      /* second Section Starts here */
+      .secondContainer{
+        flex-direction: column;
+    }
+    .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 1.9rem;
+    }
+    .secondContentContainer p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+     /* last Section starts here */
+     .lastContentContainer h1{
+        font-size: 1.5rem;
+    }
+    .lastContentContainer p{
+        width: 100%;
+        padding: 1rem;
+    }
+     /* footer Section starts here */
+     .footerChild1{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+    .footerChild2{
+        flex-direction: column;
+        gap:2rem; 
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+  /* Tablets (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .heroContainer{ 
+        padding: .5rem;
+        height: fit-content !important;
+    }
+    .heroContainer div:nth-child(1){
+        width: 100%;
+    }
+    .heroContent ,  .heroImgContainer{
+        width: 100%;
+    }
+    /* .heroContent .firstBtn{
+        margin-right: 1rem !important;
+    } */
+    .heroContent button{
+        font-size: 1rem;
+    }
+    .heroContent h1{
+        font-size: 1.7rem;
+    }
+    .heroContent p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+      /* second Section Starts here */
+      .secondContainer{
+        max-width: 100% !important;
+      }
+    .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 1.7rem;
+    }
+    .secondContentContainer p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+     /* footer Section starts here */
+     .footerChild1 , .footerChild2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+    
+  }
+  
+  /* Tablets (Landscape) */
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .heroContainer{
+        height: fit-content !important;
+    }
+    .heroContent div:nth-child(1){
+        width: 100%;
+        padding: 1rem;
+
+    }
+    .heroContent button{
+        font-size: 1rem;
+    }
+    .heroContent h1{
+        font-size: 1.7rem;
+    }
+    .heroContent p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+      /* second Section Starts here */
+      .secondContainer{
+        max-width: 100% !important;
+      }
+      .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 1.7rem;
+    }
+    .secondContentContainer p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+     /* footer Section starts here */
+     .footerChild1 , .footerChild2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+  }
+  
+  /* Small Laptops and Desktops */
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .heroContainer{
+        height: fit-content !important;
+    }
+    .heroContent div:nth-child(1){
+        width: 100%;
+        padding: 1rem;
+
+    }
+    .heroContent button{
+        font-size: 1rem;
+    }
+    .heroContent h1{
+        font-size: 2rem;
+    }
+    .heroContent p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+      /* second Section Starts here */
+      .secondContainer{
+        max-width: 100% !important;
+      }
+      .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 2rem;
+    }
+    .secondContentContainer p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+     /* footer Section starts here */
+     .footerChild1 , .footerChild2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+  }
+  
+  /* Medium to Large Desktops */
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .heroContainer{
+        height: fit-content !important;
+    }
+    .heroContent div:nth-child(1){
+        width: 100%;
+        padding: 1rem;
+
+    }
+      /* second Section Starts here */
+      .secondContainer{
+        max-width: 100% !important;
+      }
+      .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 2rem;
+    }
+    .secondContentContainer p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+     /* footer Section starts here */
+     .footerChild1 , .footerChild2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+  }
+  
+  /* Large Desktops and TVs */
+  @media only screen and (min-width: 1440px)  and (max-width: 1879px) {
+    .heroContainer{
+        height: fit-content !important;
+    }
+    .heroContent div:nth-child(1){
+        width: 100%;
+        padding: 1rem;
+
+    }
+      /* second Section Starts here */
+      .secondContainer{
+        max-width: 100% !important;
+      }
+      .secondContentContainer{
+        width: 100%;
+        padding: .5rem !important;
+    }
+    .secondImgContainer{
+      width: 100%;  
+    }
+    .secondImgContainer img{
+        padding: .5rem;
+    }
+    .secondSubContainer div:nth-child(1) , .secondSubContainer div:nth-child(2){
+        padding: 0;
+    }
+    .secondContentContainer h2{
+        font-size: 2rem;
+    }
+    .secondContentContainer p{
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+     /* footer Section starts here */
+     .footerChild1 , .footerChild2{
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+    }
+    .footerChild1 button{
+        margin-right: 0;
+    }
+  }
+  
